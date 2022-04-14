@@ -4,6 +4,7 @@ NOTE:
 1.Requirements JDK 1.8 installed on system and maven 3.8 installed
 2.Instructions to build the app.(commands to be executed in the Project Directory)
 3.The application uses in memory H2-Databse , no need to configure the database.
+4.Currently the application updates the expiry flag based on the maturity date condition every 60 seconds ,we can change this from the application.properties file according to our requirement.
 
 A.Building the Application
 1.mvn clean install
